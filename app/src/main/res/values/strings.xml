@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string name="Replay_Sound">Replay Sound</string>
+    <string name="change_style">Change Style</string>
+    <string name="NextPage">Next Page</string>
+    <string name="get_API">Get From API</string>
+    <string name="Save">Save</string>
+    <string name="Load">Load</string>
+    <string name="Previouspage">Previous Page</string>
+    <string name="text_">Détecter une modification de champ Texte et changer sa couleur </string>
+</resources>
