@@ -10,6 +10,8 @@ import android.widget.Button;
 public class MainActivity2 extends AppCompatActivity {
     private Button previous_page;
 
+    /// seconde activité
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

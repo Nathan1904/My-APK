@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private static Button buttonchg;
     private int current_image;
     int[] images = {R.drawable.senku1,R.drawable.senku2,R.drawable.senku3,R.drawable.senku4,R.drawable.senku5};
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,13 +57,6 @@ public class MainActivity extends AppCompatActivity {
             }
         })
         ;}
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mediaPlayer.start();
-
-    }
 
     public void playSound(View view) {
         mediaPlayer.start();
