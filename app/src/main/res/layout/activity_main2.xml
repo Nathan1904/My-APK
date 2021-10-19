@@ -4,13 +4,16 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/editText"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="50dp"
-        android:text="@string/text_" />
+        android:text="@string/text_"
+        android:inputType="textMultiLine"/>
 
     <Button
+        android:id="@+id/btnGetFromAPI"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginLeft="60dp"
@@ -20,13 +23,16 @@
 
 
     <Button
+        android:id="@+id/btnSave"
         android:layout_width="115dp"
         android:layout_height="51dp"
         android:layout_marginTop="460dp"
         android:layout_marginLeft="60dp"
+
         android:text="@string/Save" />
 
     <Button
+        android:id="@+id/btnLoad"
         android:layout_width="115dp"
         android:layout_height="51dp"
         android:layout_marginTop="460dp"

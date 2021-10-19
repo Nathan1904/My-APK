@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:backgroundTint="#FF5722">
 
     <Button
-        android:id="@+id/button_id"
+        android:backgroundTint="#000000"
+        android:id="@+id/replay_sound"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginLeft="60dp"
@@ -18,9 +20,11 @@
         tools:layout_editor_absoluteY="556dp" />
 
     <Button
+
         android:id="@+id/change_style"
         android:layout_width="250dp"
         android:layout_height="51dp"
+        android:backgroundTint="#000000"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="460dp"
         android:text="@string/change_style" />
@@ -29,6 +33,7 @@
         android:id="@+id/next_page"
         android:layout_width="250dp"
         android:layout_height="51dp"
+        android:backgroundTint="#000000"
         android:layout_marginTop="520dp"
         android:layout_marginLeft="60dp"
         android:text="@string/NextPage" />
